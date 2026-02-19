@@ -1,0 +1,66 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv
+
+# Python кэш
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Streamlit secrets
+.streamlit/
+!*.streamlit/*.py
+*.toml
+
+# TensorFlow модели
+*.h5
+*.hdf5
+*.keras
+*.pb
+
+saved_model/
+models/*.h5
+models/*.hdf5
+
+# База данных
+*.db
+*.sqlite
+*.sqlite3
+*.mysql
+
+# Логи
+*.log
+logs/
+api.log
+
+# Временные файлы
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Дистрибутивы
+dist/
+build/
+*.egg-info/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
